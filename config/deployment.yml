@@ -38,7 +38,7 @@ metadata:
   name: static-example-service
   annotations:
     external-dns.alpha.kubernetes.io/hostname: "doctl-action.do-api.dev"
-    service.beta.kubernetes.io/do-loadbalancer-certificate-id: "14cf21de-04d0-4241-8b3e-9b79575a3d09"
+    service.beta.kubernetes.io/do-loadbalancer-certificate-id: "8f151a3d-f060-419a-935f-609b0ec87444"
     service.beta.kubernetes.io/do-loadbalancer-redirect-http-to-https: "true"
 spec:
   type: LoadBalancer
